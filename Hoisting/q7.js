@@ -1,5 +1,6 @@
 // LINK : https://www.instagram.com/p/CwuxWNzMoGa/
 
+// SEE q15.js
 var magic = "Ram";
 
 function magic() {

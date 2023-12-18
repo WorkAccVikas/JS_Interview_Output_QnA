@@ -18,3 +18,5 @@ function flattenArray(arr) {
 }
 
 console.log(flattenArray(arr1));
+
+// OUTPUT : [ 1, 1.1, 2, 3, 4, 5 ]

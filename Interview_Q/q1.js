@@ -2,9 +2,9 @@
 
 // LINK : https://www.youtube.com/shorts/mouwxIk4OQY
 
-console.log(isPalindrome(-121));
-console.log(isPalindrome(121));
-console.log(isPalindrome(596));
+console.log(isPalindrome(-121)); // * : false
+console.log(isPalindrome(121)); // * : true
+console.log(isPalindrome(596)); // * : false
 
 function isPalindrome(number) {
   if (number < 0) return false;

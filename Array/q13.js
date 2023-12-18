@@ -4,4 +4,4 @@ function insertAtIndex(arr, index, newItem) {
 
 let arr = [10, 20, 30];
 
-console.log(insertAtIndex(arr, 1, 50));
+console.log(insertAtIndex(arr, 1, 50)); // * : [ 10, 50, 20, 30 ]

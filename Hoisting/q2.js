@@ -8,7 +8,7 @@
     x = 1;
     y = 2;
     console.log(x); // * : 1
-    // DESC : Here, x is localscope hence print 1, and y is added in global scope
+    // DESC : Here, x is local scope hence print 1, and y is added in global scope
   }
 
   console.log(x); // * : undefined

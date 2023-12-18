@@ -23,7 +23,7 @@ var x = 10;
 
 console.log(x1); // * : 100 (After IIFE destroy still access it)
 
-console.log(x);
+console.log(x); // * : 10
 var x = 30;
 
-/** OUTPUT : undefined, 20, 10 */
+/** OUTPUT : undefined, 20, 100, 10 */

@@ -6,7 +6,7 @@ function hello() {
   console.log(name);
   let name = "Virat";
   /**
-   * if line 5 is commented then o/p = Sachin
+   * if line 7 is commented then o/p = Sachin
    * else Error : Cannot access 'name' before initialization
    */
 }

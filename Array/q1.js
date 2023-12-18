@@ -9,9 +9,26 @@ for (let i in arr1) {
   console.log(`${i}: ${arr1[i]}`);
 }
 
+/** OUTPUT :
+ * 0: 11
+ * 1: 12
+ * 2: 13
+ * 3: 14
+ * 4: 15
+ * city: Mumbai
+ */
+
 // SOLUTION (1) :
 for (let i in arr1) {
   if (arr1.hasOwnProperty(i)) {
     console.log(`${i}: ${arr1[i]}`);
   }
 }
+
+/** OUTPUT :
+ * 0: 11
+ * 1: 12
+ * 2: 13
+ * 3: 14
+ * 4: 15
+ */

@@ -19,10 +19,10 @@ for (let i = 0; i < findLength(); i++) {}
 
 console.log("End");
 
-// PROBLEM (1) : Here, for every iteration length calculate and its sync programming.
+// PROBLEM (1) : Here, for every iteration, length calculate and its sync programming.
 
 // SOLUTION (1) : 
-let length = arr.length;
+let length = findLength();
 for (let j = 0; j < length; j++) {}
 
 console.log("End");

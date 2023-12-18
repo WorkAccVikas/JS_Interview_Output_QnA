@@ -15,3 +15,9 @@ const timer2 = setTimeout(() => {
   console.log("promise1", promise1);
   console.log("promise2", promise2);
 }, 2000);
+
+/** OUTPUT : 
+ * promise1 Promise { <pending> }
+ * promise2 Promise { <pending> }
+ * throw new Error("error!!!");
+ */
