@@ -6,5 +6,5 @@ function addItem(item, list) {
 const arr1 = [1];
 
 console.log(arr1); // * : [1]
-console.log(addItem(2, arr1)); // * : 2 (push will return arr length)
+console.log(addItem(25, arr1)); // * : 2 (push will return arr length)
 console.log(arr1); // * : [1, 2]
